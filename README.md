@@ -8,25 +8,26 @@ This plugin utilizes the dart:js_interop to construct and manipulate the polygon
 ## Features
 
 This package/plugin can be used:<br>
-    • To draw a single polygon on Google Maps<br>
-    • To render multiple polygons on Google Maps<br>
-    • To edit a polygon<br>
-    • Get coordinates of a drawn polygon in WKT format<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• To draw a single polygon on Google Maps<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• To render multiple polygons on Google Maps<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• To edit a polygon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• Get coordinates of a drawn polygon in WKT format<br>
 
 ## Getting started
 
 • Get a Google Maps API key from https://console.cloud.google.com/apis/credentials<br>
 &nbsp;&nbsp;&nbsp;&nbsp; ◦ Enable Maps Javascript API
 
-• Get a Map ID from https://console.cloud.google.com/google/maps-apis/studio/styles
+• Get a Map ID from https://console.cloud.google.com/google/maps-apis/studio/styles<br>
 &nbsp;&nbsp;&nbsp;&nbsp; ◦ Get one by creating a custom style.
 
 ## Usage
 
-- [• Simply populate map](#-simple-populate-map)
-- [• Get coordinates of a drawn polygon](#-get-coordinates-of-a-drawn-polygon)
-- [• Edit polygon](#-edit-polygon)
-- [• Get edited polygon coords](#-get-edited-polygon-coords)
+- [ Simply populate map](#simply-populate-map)
+- [ Get coordinates of a drawn polygon](#get-coordinates-of-a-drawn-polygon)
+- [ Edit polygon](#edit-polygon)
+- [ Get edited polygon coords](#get-edited-polygon-coords)
+
 ## Simply populate map
 ```dart
 class MyHomePage extends StatefulWidget {
@@ -127,7 +128,7 @@ GoogleMapPolygon(
     ),
 )
 ```
-NOTE: Editing a polygon requires only one polygon data. And the polygon list to be null. Also the editPolygon to be true. Default is false.
+NOTE: Editing a polygon requires singlePolygon parameter, and the polygon list to be null. Also, the editPolygon to be true. Default is false.
 
 ## Get edited polygon coords
 ```dart
@@ -148,8 +149,8 @@ GoogleMapPolygon(
     } 
 )
 ```
+
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+### Contribution
+To contribute or file issue to this package/plugin, check out the [CONTRIBUTING.md](CONTRIBUTING.md) file.
