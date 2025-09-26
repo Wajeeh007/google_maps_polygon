@@ -34,9 +34,9 @@ class GoogleMapPolygonController {
 class _GoogleMapPolygonControllerInternal {
   GMap? _gMap;
 
-  void Function(Map<String, dynamic> zoneData)? _addToPolygonRefs;
-  void Function(Map<String, dynamic> zoneData)? _updateZonePolygon;
-  void Function(bool value)? _updatePolygonCreated;
+  // void Function(Map<String, dynamic> zoneData)? _addToPolygonRefs;
+  // void Function(Map<String, dynamic> zoneData)? _updateZonePolygon;
+  // void Function(bool value)? _updatePolygonCreated;
   void Function()? _clearPolygon;
 
   final _polygonCreatedController = StreamController<Map<String, dynamic>>.broadcast();

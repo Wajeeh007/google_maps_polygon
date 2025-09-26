@@ -1,6 +1,5 @@
 import '../src/internal/utils/render_polygons.dart';
 import '../src/internal_use_library.dart';
-import 'dart:html' as html;
 
 class GoogleMapPolygon extends StatefulWidget {
   final GoogleMapPolygonController mapController;
@@ -135,7 +134,7 @@ class _GoogleMapPolygonState extends State<GoogleMapPolygon> {
 
   @override
   void dispose() {
-    html.document.getElementById(_mapDivId)?.remove();
+    removeMapDiv(_mapDivId);
     widget.mapController.dispose();
     super.dispose();
   }

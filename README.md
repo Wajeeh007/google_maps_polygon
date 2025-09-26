@@ -3,7 +3,7 @@ A Flutter plugin to draw and edit polygons on Google Maps in Flutter Web.
 This plugin utilizes the dart:js_interop to construct and manipulate the polygons on the Google Map
 
 ## 🎥 Demo
-![Demo](docs/demo.gif)
+![Demo](doc/demo.gif)
 
 ## Features
 

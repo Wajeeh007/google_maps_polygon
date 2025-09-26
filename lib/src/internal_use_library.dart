@@ -28,6 +28,7 @@ part '../src/internal/interop/drawing_manager.dart';
 part '../src/internal/interop/g_map.dart';
 part '../src/internal/interop/overlay_complete.dart';
 part '../src/internal/interop/polygon.dart';
+part '../src/internal/interop/get_element.dart';
 
 /// Helper Functions / Utils
 part '../src/internal/utils/convert_polygon_path_to_coords_list.dart';
