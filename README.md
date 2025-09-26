@@ -8,18 +8,18 @@ This plugin utilizes the dart:js_interop to construct and manipulate the polygon
 ## Features
 
 This package/plugin can be used:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• To draw a single polygon on Google Maps<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• To render multiple polygons on Google Maps<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• To edit a polygon<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• Get coordinates of a drawn polygon in WKT format<br>
+- To draw a single polygon on Google Maps<br>
+- To render multiple polygons on Google Maps<br>
+- To edit a polygon<br>
+- Get coordinates of a drawn polygon in WKT format<br>
 
 ## Getting started
 
-• Get a Google Maps API key from https://console.cloud.google.com/apis/credentials<br>
-&nbsp;&nbsp;&nbsp;&nbsp; ◦ Enable Maps Javascript API
+- Get a Google Maps API key from https://console.cloud.google.com/apis/credentials<br>
+  - Enable Maps Javascript API
 
-• Get a Map ID from https://console.cloud.google.com/google/maps-apis/studio/styles<br>
-&nbsp;&nbsp;&nbsp;&nbsp; ◦ Get one by creating a custom style.
+- Get a Map ID from https://console.cloud.google.com/google/maps-apis/studio/styles<br>
+  - Get one by creating a custom style.
 
 ## Usage
 
